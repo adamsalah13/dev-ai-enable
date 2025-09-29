@@ -1,532 +1,228 @@
-# Dev AI Enable - Comprehensive AI-Driven Development Platform<<<<<<< HEAD
-
-# AI-Driven End-to-End CI/CD Course
+# Dev AI Enable - Comprehensive AI-Driven Development Platform
 
 A comprehensive platform combining AI-driven CI/CD course materials with fintech AI tools and frameworks. This project serves both as an educational resource for development teams and a practical Python toolkit for financial technology applications.
 
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![JavaScript](https://img.shields.io/badge/javascript-es6%2B-yellow)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-Active-brightgreen)
+
+## 🎯 Project Overview
+
+This platform combines two powerful components:
+
+### 1. AI-Driven CI/CD Course
 A comprehensive hands-on course for development teams to learn AI-driven CI/CD processes from Business Analysis to Quality Assurance and Documentation.
 
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-
-![JavaScript](https://img.shields.io/badge/javascript-es6%2B-yellow)## 🎯 Course Overview
-
-![License](https://img.shields.io/badge/license-MIT-green)
-
-![Status](https://img.shields.io/badge/status-Active-brightgreen)This course introduces development teams to modern AI-powered workflows that span the entire software development lifecycle. Participants will learn to leverage AI tools like GitHub Copilot, Cursor AI, and VSCode extensions to streamline processes from requirements gathering to deployment and documentation.
-
-
-
-## 🎯 Project Overview## 👥 Target Personas
-
-
-
-This platform combines two powerful components:This course is designed for cross-functional development teams including:
-
-
-
-### 1. AI-Driven CI/CD Course- **Business Analysts (BA)** - Requirements gathering and user story creation
-
-A comprehensive hands-on course for development teams to learn AI-driven CI/CD processes from Business Analysis to Quality Assurance and Documentation.- **Product Owners** - Feature planning and backlog management
-
-- **Developers** - Code implementation and testing
-
-### 2. Fintech AI Labs- **DevOps Engineers** - CI/CD pipeline management
-
-A Python toolkit for financial technology and artificial intelligence integration, providing tools and frameworks for processing financial data and implementing machine learning models.- **Quality Assurance (QA)** - Testing strategy and automation
-
-- **Technical Writers** - Documentation and knowledge management
+### 2. Fintech AI Labs
+A Python toolkit for financial technology and artificial intelligence integration, providing tools and frameworks for processing financial data and implementing machine learning models.
 
 ## 👥 Target Personas
 
-## 🏗️ Course Structure
-
 This platform is designed for:
 
-### Module 1: Foundation Setup
-
-- **Business Analysts (BA)** - Requirements gathering and user story creation- Repository setup and collaboration workflows
-
-- **Product Owners** - Feature planning and backlog management  - VSCode/Cursor AI agent configuration
-
-- **Developers** - Code implementation and testing- GitHub Copilot integration
-
-- **DevOps Engineers** - CI/CD pipeline management- Fork and contribution workflows
-
+- **Business Analysts (BA)** - Requirements gathering and user story creation
+- **Product Owners** - Feature planning and backlog management  
+- **Developers** - Code implementation and testing
+- **DevOps Engineers** - CI/CD pipeline management
 - **Quality Assurance (QA)** - Testing strategy and automation
+- **Technical Writers** - Documentation and knowledge management
+- **Data Scientists** - Financial modeling and AI development
+- **Fintech Engineers** - Financial application development
 
-- **Technical Writers** - Documentation and knowledge management### Module 2: Persona-Specific AI Workflows
+## 🏗️ Course Structure
 
-- **Data Scientists** - Financial modeling and AI development- BA: AI-assisted requirements analysis
+### Module 1: Foundation Setup
+- Repository setup and collaboration workflows
+- VSCode/Cursor AI agent configuration
+- GitHub Copilot integration
+- Fork and contribution workflows
 
-- **Fintech Engineers** - Financial application development- Developer: AI-powered code generation
-
+### Module 2: Persona-Specific AI Workflows
+- BA: AI-assisted requirements analysis
+- Developer: AI-powered code generation
 - QA: AI-driven test automation
+- Documentation: AI-enhanced technical writing
 
-## 🚀 Features- Documentation: AI-enhanced technical writing
-
-
-
-### Course Components### Module 3: End-to-End Integration
-
-- AI-assisted requirements analysis and user story creation- Connecting AI workflows across personas
-
-- AI-powered code generation and testing- Automated CI/CD with AI assistance
-
-- Automated CI/CD with AI assistance- Quality gates and automated reviews
-
-- Quality gates and automated reviews- Deployment and monitoring
-
-- Fintech-specific compliance and security considerations
+### Module 3: End-to-End Integration
+- Connecting AI workflows across personas
+- Automated CI/CD with AI assistance
+- Quality gates and automated reviews
+- Deployment and monitoring
 
 ### Module 4: Fintech-Specific Applications
-
-### Fintech AI Toolkit- Compliance and security considerations
-
-- **Financial Data Processing**: Load, validate, and process financial datasets- Financial data handling
-
-- **Technical Indicators**: Calculate common technical analysis indicators (SMA, RSI, volatility, etc.)- Regulatory documentation
-
-- **Machine Learning**: Train and evaluate ML models for financial predictions- Risk management workflows
-
-- **Data Validation**: Comprehensive data quality checks and validation
-
-- **Sample Data Generation**: Create realistic financial datasets for testing and development## 🚀 Getting Started
-
-- **Jupyter Integration**: Ready-to-use notebooks for interactive analysis
-
-- **Configuration Management**: Flexible YAML-based configuration system1. **Fork this repository** to your GitHub account
-
-2. **Clone your fork** locally
-
-## 📦 Installation3. **Follow the setup guides** in each persona directory
-
-4. **Complete the exercises** in sequence
-
-### Prerequisites5. **Submit pull requests** for review
-
-
-
-- Python 3.8 or higher## 📁 Repository Structure
-
-- Node.js 16+ (for sample applications)
-
-- Git and GitHub account```
-
-- VSCode or Cursor IDE├── personas/                    # Persona-specific guides and exercises
-
-│   ├── business-analyst/       # BA workflows and tools
-
-### Setup Instructions│   ├── developer/              # Development workflows
-
-│   ├── devops/                 # CI/CD and infrastructure
-
-```bash│   ├── qa/                     # Testing and quality assurance
-
-# Clone the repository│   └── documentation/          # Technical writing workflows
-
-git clone https://github.com/adamsalah13/dev-ai-enable.git├── sample-app/                  # Fintech sample application
-
-cd dev-ai-enable├── templates/                   # AI prompt templates
-
-├── workflows/                   # GitHub Actions examples
-
-# Install Python dependencies└── docs/                       # Course documentation
-
-pip install -r requirements.txt```
-
-
-
-# Install Node.js dependencies (for sample apps)## 🛠️ Prerequisites
-
-cd sample-app && npm install && cd ..
-
-```- GitHub account
-
-- Git basics knowledge
-
-### Verify Installation- VSCode or Cursor IDE
-
-- Basic understanding of software development lifecycle
-
-```bash- Interest in AI-powered development workflows
-
-# Run Python tests
-
-python -m pytest tests/## 📚 Learning Outcomes
-
-
-
-# Run basic exampleBy the end of this course, participants will be able to:
-
-python examples/basic_usage.py
-
-- ✅ Set up and configure AI development environments
-
-# Start sample application (optional)- ✅ Use AI tools effectively for their specific role
-
-cd sample-app && npm start- ✅ Collaborate across personas using AI-enhanced workflows
-
-```- ✅ Implement end-to-end CI/CD pipelines with AI assistance
-
-- ✅ Apply fintech-specific considerations to AI workflows
-
-## 🎯 Quick Start- ✅ Create and maintain AI-generated documentation
-
-- ✅ Establish quality gates and automated review processes
-
-### For Course Participants
-
-## 🤝 Contributing
-
-1. **Fork this repository** to your GitHub account
-
-2. **Clone your fork** locallyThis is a collaborative learning environment. Please:
-
-3. **Follow the setup guides** in each persona directory1. Fork the repository
-
-4. **Complete the exercises** in sequence2. Create feature branches for exercises
-
-5. **Submit pull requests** for review3. Submit pull requests for review
-
-4. Participate in code reviews
-
-### For Fintech AI Development5. Share learnings with the team
-
-
-
-```python## 📄 License
-
-from fintech_ai import FinanceDataProcessor, ModelTrainer
-
-from fintech_ai.utils import create_sample_dataMIT License - See [LICENSE](LICENSE) for details.
-
-=======
-
-# Generate sample data# Fintech AI Enable Labs
-
-sample_data = create_sample_data(n_samples=365)
-
-df = sample_data['dataframe']A comprehensive Python toolkit for financial technology and artificial intelligence integration. This project provides tools and frameworks for processing financial data, implementing machine learning models, and building AI-powered fintech applications.
-
-
-
-# Process financial data![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-
-processor = FinanceDataProcessor()![License](https://img.shields.io/badge/license-MIT-green)
-
-processor.load_data(df)![Status](https://img.shields.io/badge/status-Active-brightgreen)
-
-processor.calculate_technical_indicators()
+- Compliance and security considerations
+- Financial data handling
+- Regulatory documentation
+- Risk management workflows
 
 ## 🚀 Features
 
-# Prepare features for ML
+### Course Components
+- AI-assisted requirements analysis and user story creation
+- AI-powered code generation and testing
+- Automated CI/CD with AI assistance
+- Quality gates and automated reviews
+- Fintech-specific compliance and security considerations
 
-feature_columns = ['SMA_20', 'SMA_50', 'RSI', 'Volatility', 'Volume']- **Financial Data Processing**: Load, validate, and process financial datasets
-
-target_column = 'Close'- **Technical Indicators**: Calculate common technical analysis indicators (SMA, RSI, volatility, etc.)
-
-processor.prepare_features(feature_columns, target_column)- **Machine Learning**: Train and evaluate ML models for financial predictions
-
+### Fintech AI Toolkit
+- **Financial Data Processing**: Load, validate, and process financial datasets
+- **Technical Indicators**: Calculate common technical analysis indicators (SMA, RSI, volatility, etc.)
+- **Machine Learning**: Train and evaluate ML models for financial predictions
 - **Data Validation**: Comprehensive data quality checks and validation
-
-# Train a machine learning model- **Sample Data Generation**: Create realistic financial datasets for testing and development
-
-clean_data = processor.data.dropna()- **Jupyter Integration**: Ready-to-use notebooks for interactive analysis
-
-X = clean_data[feature_columns]- **Configuration Management**: Flexible YAML-based configuration system
-
-y = clean_data[target_column]
+- **Sample Data Generation**: Create realistic financial datasets for testing and development
+- **Jupyter Integration**: Ready-to-use notebooks for interactive analysis
+- **Configuration Management**: Flexible YAML-based configuration system
 
 ## 📦 Installation
 
-trainer = ModelTrainer()
+### Prerequisites
+- Python 3.8 or higher
+- Node.js 16+ (for sample applications)
+- Git and GitHub account
+- VSCode or Cursor IDE
 
-results = trainer.train_model(X, y, model_type="random_forest")### Prerequisites
+### Setup Instructions
 
+```bash
+# Clone the repository
+git clone https://github.com/adamsalah13/dev-ai-enable.git
+cd dev-ai-enable
 
+# Install Python dependencies
+pip install -r requirements.txt
 
-# Make predictions- Python 3.8 or higher
-
-predictions = trainer.predict(X)- pip package manager
-
+# Install Node.js dependencies (for sample apps)
+cd sample-app && npm install && cd ..
 ```
 
-### Install Dependencies
+### Verify Installation
+
+```bash
+# Run Python tests
+python -m pytest tests/
+
+# Run basic example
+python examples/basic_usage.py
+
+# Start sample application (optional)
+cd sample-app && npm start
+```
+
+## 🎯 Quick Start
+
+### For Course Participants
+
+1. **Fork this repository** to your GitHub account
+2. **Clone your fork** locally
+3. **Follow the setup guides** in each persona directory
+4. **Complete the exercises** in sequence
+5. **Submit pull requests** for review
+
+### For Fintech AI Development
+
+```python
+from fintech_ai import FinanceDataProcessor, ModelTrainer
+from fintech_ai.utils import create_sample_data
+
+# Generate sample data
+sample_data = create_sample_data(n_samples=365)
+df = sample_data['dataframe']
+
+# Process financial data
+processor = FinanceDataProcessor()
+processor.load_data(df)
+processor.calculate_technical_indicators()
+
+# Prepare features for ML
+feature_columns = ['SMA_20', 'SMA_50', 'RSI', 'Volatility', 'Volume']
+target_column = 'Close'
+processor.prepare_features(feature_columns, target_column)
+
+# Train a machine learning model
+clean_data = processor.data.dropna()
+X = clean_data[feature_columns]
+y = clean_data[target_column]
+
+trainer = ModelTrainer()
+results = trainer.train_model(X, y, model_type="random_forest")
+
+# Make predictions
+predictions = trainer.predict(X)
+```
 
 ## 📁 Repository Structure
 
-```bash
-
-```# Clone the repository
-
-├── personas/                    # Persona-specific guides and exercisesgit clone https://github.com/adamsalah13/dev-ai-enable.git
-
-│   ├── business-analyst/       # BA workflows and toolscd dev-ai-enable
-
-│   ├── developer/              # Development workflows
-
-│   ├── devops/                 # CI/CD and infrastructure# Install required packages
-
-│   ├── qa/                     # Testing and quality assurancepip install -r requirements.txt
-
-│   └── documentation/          # Technical writing workflows```
-
-├── sample-app/                  # Fintech sample application (Node.js/React)
-
-├── src/fintech_ai/             # Python fintech AI toolkit### Verify Installation
-
-│   ├── __init__.py            # Package initialization
-
-│   ├── core.py                # Core functionality (data processing, ML)```bash
-
-│   └── utils.py               # Utility functions# Run tests to verify everything works
-
-├── templates/                   # AI prompt templatespython -m pytest tests/
-
-├── docs/                       # Course and API documentation
-
-├── examples/                   # Usage examples# Or run the basic example
-
-├── notebooks/                  # Jupyter notebookspython examples/basic_usage.py
-
-├── tests/                      # Test suite```
-
-├── config/                     # Configuration files
-
-└── .github/workflows/          # GitHub Actions CI/CD## 🎯 Quick Start
-
 ```
-
-### Basic Usage
+├── personas/                    # Persona-specific guides and exercises
+│   ├── business-analyst/       # BA workflows and tools
+│   ├── developer/              # Development workflows
+│   ├── devops/                 # CI/CD and infrastructure
+│   ├── qa/                     # Testing and quality assurance
+│   └── documentation/          # Technical writing workflows
+├── sample-app/                  # Fintech sample application (Node.js/React)
+├── src/fintech_ai/             # Python fintech AI toolkit
+│   ├── __init__.py            # Package initialization
+│   ├── core.py                # Core functionality (data processing, ML)
+│   └── utils.py               # Utility functions
+├── templates/                   # AI prompt templates
+├── docs/                       # Course and API documentation
+├── examples/                   # Usage examples
+├── notebooks/                  # Jupyter notebooks
+├── tests/                      # Test suite
+├── config/                     # Configuration files
+└── .github/workflows/          # GitHub Actions CI/CD
+```
 
 ## 🛠️ Prerequisites
 
-```python
-
-- GitHub account with Copilot accessfrom fintech_ai import FinanceDataProcessor, ModelTrainer
-
-- Git basics knowledgefrom fintech_ai.utils import create_sample_data
-
+- GitHub account with Copilot access
+- Git basics knowledge
 - VSCode or Cursor IDE
+- Basic understanding of software development lifecycle
+- Python 3.8+ for fintech toolkit
+- Interest in AI-powered development workflows
 
-- Basic understanding of software development lifecycle# Generate sample data
+## 📚 Learning Outcomes
 
-- Python 3.8+ for fintech toolkitsample_data = create_sample_data(n_samples=365)
-
-- Interest in AI-powered development workflowsdf = sample_data['dataframe']
-
-
-
-## 📚 Learning Outcomes# Process financial data
-
-processor = FinanceDataProcessor()
-
-By the end of this course, participants will be able to:processor.load_data(df)
-
-processor.calculate_technical_indicators()
+By the end of this course, participants will be able to:
 
 - ✅ Set up and configure AI development environments
-
-- ✅ Use AI tools effectively for their specific role# Prepare features for ML
-
-- ✅ Collaborate across personas using AI-enhanced workflowsfeature_columns = ['SMA_20', 'SMA_50', 'RSI', 'Volatility', 'Volume']
-
-- ✅ Implement end-to-end CI/CD pipelines with AI assistancetarget_column = 'Close'
-
-- ✅ Apply fintech-specific considerations to AI workflowsprocessor.prepare_features(feature_columns, target_column)
-
+- ✅ Use AI tools effectively for their specific role
+- ✅ Collaborate across personas using AI-enhanced workflows
+- ✅ Implement end-to-end CI/CD pipelines with AI assistance
+- ✅ Apply fintech-specific considerations to AI workflows
 - ✅ Create and maintain AI-generated documentation
-
-- ✅ Establish quality gates and automated review processes# Train a machine learning model
-
-- ✅ Build and deploy fintech AI applicationsclean_data = processor.data.dropna()
-
-- ✅ Process financial data and implement ML modelsX = clean_data[feature_columns]
-
-y = clean_data[target_column]
+- ✅ Establish quality gates and automated review processes
+- ✅ Build and deploy fintech AI applications
+- ✅ Process financial data and implement ML models
 
 ## 🧪 Testing
 
-trainer = ModelTrainer()
+Run the test suite to ensure everything works correctly:
 
-Run the test suite to ensure everything works correctly:results = trainer.train_model(X, y, model_type="random_forest")
-
-
-
-```bash# Make predictions
-
-# Run Python testspredictions = trainer.predict(X)
-
-python -m pytest tests/ -v```
-
-
-
-# Run specific test file### Interactive Analysis
-
-python -m pytest tests/test_core.py
-
-Launch the Jupyter notebook for interactive exploration:
-
-# Run sample application tests
-
-cd sample-app && npm test```bash
-
-```jupyter notebook notebooks/getting_started.ipynb
-
-```
-
-## 🤝 Contributing
-
-## 📁 Project Structure
-
-This is a collaborative learning environment. Please:
-
-```
-
-1. **Fork** the repositorydev-ai-enable/
-
-2. **Create** feature branches (`git checkout -b feature/amazing-feature`)├── src/fintech_ai/          # Main package source code
-
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)│   ├── __init__.py          # Package initialization
-
-4. **Push** to the branch (`git push origin feature/amazing-feature`)│   ├── core.py              # Core functionality (data processing, ML)
-
-5. **Open** a Pull Request│   └── utils.py             # Utility functions
-
-6. **Participate** in code reviews├── config/                  # Configuration files
-
-7. **Share** learnings with the team│   └── config.yaml          # Main configuration
-
-├── examples/                # Usage examples
-
-### Development Setup│   └── basic_usage.py       # Basic usage example
-
-├── notebooks/               # Jupyter notebooks
-
-```bash│   └── getting_started.ipynb # Interactive tutorial
-
-# Install development dependencies├── tests/                   # Test suite
-
-pip install -r requirements.txt│   ├── __init__.py
-
-pip install pytest black flake8│   └── test_core.py         # Core functionality tests
-
-├── docs/                    # Documentation (future)
-
-# Format code├── requirements.txt         # Python dependencies
-
-black src/ tests/ examples/├── .gitignore              # Git ignore rules
-
-├── LICENSE                 # MIT License
-
-# Check code style└── README.md              # This file
-
-flake8 src/ tests/ examples/```
-
-```
-
-## 🛠 API Reference
-
-## 📝 License
-
-### FinanceDataProcessor
-
-This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
-
-Main class for processing financial data:
-
-## 👨‍💻 Author
-
-- `load_data(data)`: Load data from file or DataFrame
-
-**Adam Salah**- `calculate_technical_indicators()`: Calculate SMA, RSI, volatility, etc.
-
-- GitHub: [@adamsalah13](https://github.com/adamsalah13)- `prepare_features(feature_columns, target_column)`: Prepare data for ML
-
-
-
-## 🙏 Acknowledgments### ModelTrainer
-
-
-
-- Built with Python and the scientific computing ecosystemMachine learning model training and evaluation:
-
-- Inspired by the need for accessible fintech AI tools
-
-- Thanks to the open-source community for amazing libraries- `train_model(X, y, model_type)`: Train ML models (Random Forest, etc.)
-
-- GitHub Copilot and AI-powered development tools- `predict(X)`: Make predictions with trained model
-
-- `get_feature_importance()`: Get feature importance scores
-
-## 📈 Roadmap
-
-### Utility Functions
-
-### Course Enhancements
-
-- [ ] Advanced AI prompt engineering workshops- `create_sample_data(n_samples)`: Generate realistic financial datasets
-
-- [ ] Real-world case studies and scenarios- `validate_data(df)`: Comprehensive data validation
-
-- [ ] Integration with more AI development tools- `load_config(config_path)`: Load YAML configuration
-
-- [ ] Certification and assessment framework- `setup_logging(level, log_file)`: Configure logging
-
-
-
-### Fintech AI Toolkit## 🧪 Testing
-
-- [ ] Real-time data integration (Yahoo Finance, Alpha Vantage)
-
-- [ ] Advanced ML models (XGBoost, Neural Networks)Run the test suite to ensure everything works correctly:
-
-- [ ] Backtesting framework
-
-- [ ] Portfolio optimization tools```bash
-
-- [ ] Risk management metrics# Run all tests
-
-- [ ] Web dashboard interfacepython -m pytest tests/
-
-- [ ] Docker containerization
-
-- [ ] Cloud deployment guides# Run with verbose output
-
+```bash
+# Run Python tests
 python -m pytest tests/ -v
 
-## 🐛 Issues & Support
-
 # Run specific test file
+python -m pytest tests/test_core.py
 
-If you encounter any issues or have questions:python -m pytest tests/test_core.py
-
+# Run sample application tests
+cd sample-app && npm test
 ```
 
-1. Check the [documentation](README.md) and [examples](examples/)
-
-2. Search existing [issues](https://github.com/adamsalah13/dev-ai-enable/issues)## 📊 Examples
-
-3. Create a new issue with detailed information
+## 📊 Examples
 
 ### Technical Analysis Example
 
-## 📚 Resources
-
 ```python
+from fintech_ai import FinanceDataProcessor
+from fintech_ai.utils import create_sample_data
+import matplotlib.pyplot as plt
 
-- [Course Documentation](docs/)from fintech_ai import FinanceDataProcessor
-
-- [Getting Started Notebook](notebooks/getting_started.ipynb)from fintech_ai.utils import create_sample_data
-
-- [Basic Usage Example](examples/basic_usage.py)import matplotlib.pyplot as plt
-
-- [Configuration Guide](config/config.yaml)
-
-- [API Documentation](src/fintech_ai/)# Create and process data
-
-- [Sample Application](sample-app/)data = create_sample_data(n_samples=500)['dataframe']
+# Create and process data
+data = create_sample_data(n_samples=500)['dataframe']
 processor = FinanceDataProcessor()
 processor.load_data(data)
 processed_data = processor.calculate_technical_indicators()
@@ -584,6 +280,31 @@ logging:
   file: "logs/fintech_ai.log"
 ```
 
+## 🛠 API Reference
+
+### FinanceDataProcessor
+
+Main class for processing financial data:
+
+- `load_data(data)`: Load data from file or DataFrame
+- `calculate_technical_indicators()`: Calculate SMA, RSI, volatility, etc.
+- `prepare_features(feature_columns, target_column)`: Prepare data for ML
+
+### ModelTrainer
+
+Machine learning model training and evaluation:
+
+- `train_model(X, y, model_type)`: Train ML models (Random Forest, etc.)
+- `predict(X)`: Make predictions with trained model
+- `get_feature_importance()`: Get feature importance scores
+
+### Utility Functions
+
+- `create_sample_data(n_samples)`: Generate realistic financial datasets
+- `validate_data(df)`: Comprehensive data validation
+- `load_config(config_path)`: Load YAML configuration
+- `setup_logging(level, log_file)`: Configure logging
+
 ## 🤝 Contributing
 
 We welcome contributions! Here's how you can help:
@@ -611,23 +332,15 @@ black src/ tests/ examples/
 flake8 src/ tests/ examples/
 ```
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Adam Salah**
-- GitHub: [@adamsalah13](https://github.com/adamsalah13)
-
-## 🙏 Acknowledgments
-
-- Built with Python and the scientific computing ecosystem
-- Inspired by the need for accessible fintech AI tools
-- Thanks to the open-source community for amazing libraries
-
 ## 📈 Roadmap
 
+### Course Enhancements
+- [ ] Advanced AI prompt engineering workshops
+- [ ] Real-world case studies and scenarios
+- [ ] Integration with more AI development tools
+- [ ] Certification and assessment framework
+
+### Fintech AI Toolkit
 - [ ] Real-time data integration (Yahoo Finance, Alpha Vantage)
 - [ ] Advanced ML models (XGBoost, Neural Networks)
 - [ ] Backtesting framework
@@ -651,4 +364,18 @@ If you encounter any issues or have questions:
 - [Basic Usage Example](examples/basic_usage.py)
 - [Configuration Guide](config/config.yaml)
 - [Test Examples](tests/test_core.py)
->>>>>>> origin/copilot/fix-bc8c9303-84d8-4618-9159-e5136467ff25
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Author
+
+**Adam Salah**
+- GitHub: [@adamsalah13](https://github.com/adamsalah13)
+
+## 🙏 Acknowledgments
+
+- Built with Python and the scientific computing ecosystem
+- Inspired by the need for accessible fintech AI tools
+- Thanks to the open-source community for amazing libraries
