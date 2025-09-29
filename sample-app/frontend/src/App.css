@@ -1,0 +1,231 @@
+/* PayFlow Frontend Styles */
+
+.App {
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+/* Error Boundary Styles */
+.error-boundary {
+  padding: 24px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 24px;
+}
+
+.error-boundary h2 {
+  color: #d32f2f;
+  margin-bottom: 16px;
+}
+
+.error-boundary p {
+  color: #666;
+  margin-bottom: 24px;
+}
+
+/* Layout Styles */
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.layout-sidebar {
+  width: 240px;
+  background-color: #fff;
+  border-right: 1px solid #e0e0e0;
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.layout-main {
+  margin-left: 240px;
+  flex: 1;
+  padding: 24px;
+}
+
+/* Dashboard Styles */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.dashboard-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.dashboard-card h3 {
+  margin: 0 0 16px 0;
+  color: #333;
+}
+
+.dashboard-card .metric {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1976d2;
+  margin-bottom: 8px;
+}
+
+.dashboard-card .metric-label {
+  color: #666;
+  font-size: 0.875rem;
+}
+
+/* Payment Form Styles */
+.payment-form {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.payment-form h2 {
+  margin: 0 0 24px 0;
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+/* Transaction List Styles */
+.transaction-list {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.transaction-item {
+  padding: 16px 24px;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: between;
+  align-items: center;
+}
+
+.transaction-item:last-child {
+  border-bottom: none;
+}
+
+.transaction-info {
+  flex: 1;
+}
+
+.transaction-amount {
+  font-weight: 600;
+  color: #1976d2;
+}
+
+.transaction-date {
+  color: #666;
+  font-size: 0.875rem;
+}
+
+.transaction-status {
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.transaction-status.completed {
+  background-color: #e8f5e8;
+  color: #2e7d32;
+}
+
+.transaction-status.pending {
+  background-color: #fff3e0;
+  color: #f57c00;
+}
+
+.transaction-status.failed {
+  background-color: #ffebee;
+  color: #d32f2f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .layout-sidebar {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+  
+  .layout-sidebar.open {
+    transform: translateX(0);
+  }
+  
+  .layout-main {
+    margin-left: 0;
+    padding: 16px;
+  }
+  
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .payment-form {
+    padding: 24px 16px;
+  }
+}
+
+/* Animation Classes */
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-in {
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-16px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
