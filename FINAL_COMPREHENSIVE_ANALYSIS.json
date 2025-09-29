@@ -1,0 +1,110 @@
+{
+  "repository": "adamsalah13/dev-ai-enable",
+  "analysis_method": "Manual analysis based on GitHub MCP server exploration",
+  "analysis_timestamp": "2025-09-29 22:44:50",
+  "branches_analyzed": 4,
+  "branches": {
+    "main": {
+      "sha": "179f209bbee86f9cb59510040a1e6347dc154b7b",
+      "total_files": 2,
+      "documentation_files": [
+        "README.md"
+      ],
+      "personas": [],
+      "structure": {},
+      "links_analysis": {},
+      "issues_found": []
+    },
+    "copilot/fix-3ff8626e-54ce-4208-be9a-f3dfbd339e4c": {
+      "sha": "5053712f4458f32f9744c16c50be1a674c4617b6",
+      "total_files": 8,
+      "documentation_files": [
+        "README.md"
+      ],
+      "personas": [
+        "business-analyst",
+        "developer",
+        "devops",
+        "documentation",
+        "qa"
+      ],
+      "structure": {},
+      "links_analysis": {
+        "README.md": {
+          "markdown_links": [
+            {
+              "text": "LICENSE",
+              "url": "LICENSE",
+              "line": 100
+            }
+          ],
+          "direct_urls": [],
+          "file_references": [],
+          "broken_links": []
+        }
+      },
+      "issues_found": [],
+      "total_links": 1,
+      "broken_links": 0,
+      "has_comprehensive_docs": true,
+      "docs_structure": [
+        "docs/assessment-criteria.md",
+        "docs/collaboration-workflows.md",
+        "docs/course-setup.md",
+        "docs/cursor-ai-guide.md",
+        "docs/deployment/",
+        "docs/fintech/",
+        "docs/github-copilot-guide.md",
+        "docs/prompting-guide.md",
+        "docs/testing/"
+      ],
+      "has_sample_app": true,
+      "sample_app_structure": [
+        "sample-app/.env.example",
+        "sample-app/README.md",
+        "sample-app/backend/",
+        "sample-app/database/",
+        "sample-app/docker-compose.yml",
+        "sample-app/frontend/",
+        "sample-app/package.json"
+      ]
+    },
+    "copilot/fix-25a990a4-640b-43e6-ab17-9d88ac37e6cf": {
+      "sha": "d91af0cd544cded24aa0d0268723e2d4d8ba71dc",
+      "total_files": 8,
+      "documentation_files": [
+        "README.md"
+      ],
+      "personas": [],
+      "structure": {},
+      "links_analysis": {},
+      "issues_found": []
+    },
+    "copilot/fix-32e1de2b-3b2f-4ba5-9c7a-aafbfced55fd": {
+      "sha": "09c1fca12a039b9632a655907f574bf18e8b9cf3",
+      "total_files": 2,
+      "documentation_files": [
+        "README.md"
+      ],
+      "personas": [],
+      "structure": {},
+      "links_analysis": {},
+      "issues_found": []
+    }
+  },
+  "summary": {
+    "total_files": 20,
+    "total_doc_files": 4,
+    "total_links": 1,
+    "broken_links": 0,
+    "personas_found": [
+      "developer",
+      "qa",
+      "devops",
+      "business-analyst",
+      "documentation"
+    ],
+    "richest_branch": "copilot/fix-3ff8626e-54ce-4208-be9a-f3dfbd339e4c",
+    "recommended_base_branch": "copilot/fix-3ff8626e-54ce-4208-be9a-f3dfbd339e4c"
+  }
+}

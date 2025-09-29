@@ -1,0 +1,47 @@
+{
+  "repository": "/home/runner/work/dev-ai-enable/dev-ai-enable",
+  "analysis_timestamp": "2025-09-29 22:41:33",
+  "total_branches": 11,
+  "branches": {
+    "copilot/fix-0c8a0b65-8974-492a-9b39-419f1d6519b9": {
+      "error": "Could not checkout branch copilot/fix-0c8a0b65-8974-492a-9b39-419f1d6519b9"
+    },
+    "copilot/fix-24588833-13cf-4d10-9d97-dd8c7fe1159f": {
+      "error": "Could not checkout branch copilot/fix-24588833-13cf-4d10-9d97-dd8c7fe1159f"
+    },
+    "copilot/fix-25a990a4-640b-43e6-ab17-9d88ac37e6cf": {
+      "error": "Could not checkout branch copilot/fix-25a990a4-640b-43e6-ab17-9d88ac37e6cf"
+    },
+    "copilot/fix-32e1de2b-3b2f-4ba5-9c7a-aafbfced55fd": {
+      "error": "Could not checkout branch copilot/fix-32e1de2b-3b2f-4ba5-9c7a-aafbfced55fd"
+    },
+    "copilot/fix-3ff8626e-54ce-4208-be9a-f3dfbd339e4c": {
+      "error": "Could not checkout branch copilot/fix-3ff8626e-54ce-4208-be9a-f3dfbd339e4c"
+    },
+    "copilot/fix-5228e5db-6bc0-4f36-bdc0-71a212da59be": {
+      "error": "Could not checkout branch copilot/fix-5228e5db-6bc0-4f36-bdc0-71a212da59be"
+    },
+    "copilot/fix-bc8c9303-84d8-4618-9159-e5136467ff25": {
+      "error": "Could not checkout branch copilot/fix-bc8c9303-84d8-4618-9159-e5136467ff25"
+    },
+    "copilot/fix-e6bc0c18-aa4a-40c8-8791-b523c9a2a0d1": {
+      "error": "Could not checkout branch copilot/fix-e6bc0c18-aa4a-40c8-8791-b523c9a2a0d1"
+    },
+    "copilot/fix-eb876b62-3aa0-49bf-b0af-3f062d777000": {
+      "error": "Could not checkout branch copilot/fix-eb876b62-3aa0-49bf-b0af-3f062d777000"
+    },
+    "copilot/fix-f7eda28e-2daa-423c-a673-7db721b7cb3b": {
+      "error": "Could not checkout branch copilot/fix-f7eda28e-2daa-423c-a673-7db721b7cb3b"
+    },
+    "main": {
+      "error": "Could not checkout branch main"
+    }
+  },
+  "summary": {
+    "total_files": 0,
+    "total_links": 0,
+    "total_broken_internal": 0,
+    "total_broken_external": 0,
+    "branches_with_issues": []
+  }
+}

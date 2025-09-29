@@ -1,0 +1,74 @@
+{
+  "main": {
+    "branch": "main",
+    "sha": "179f209bbee86f9cb59510040a1e6347dc154b7b",
+    "total_files": 0,
+    "doc_files": 0,
+    "files": {},
+    "all_files_list": [],
+    "links_summary": {
+      "total_links": 0,
+      "internal_links": 0,
+      "external_links": 0,
+      "broken_internal": 0,
+      "broken_external": 0
+    },
+    "broken_links": [],
+    "personas_found": [],
+    "docs_structure": {}
+  },
+  "copilot/fix-3ff8626e-54ce-4208-be9a-f3dfbd339e4c": {
+    "branch": "copilot/fix-3ff8626e-54ce-4208-be9a-f3dfbd339e4c",
+    "sha": "5053712f4458f32f9744c16c50be1a674c4617b6",
+    "total_files": 0,
+    "doc_files": 0,
+    "files": {},
+    "all_files_list": [],
+    "links_summary": {
+      "total_links": 0,
+      "internal_links": 0,
+      "external_links": 0,
+      "broken_internal": 0,
+      "broken_external": 0
+    },
+    "broken_links": [],
+    "personas_found": [],
+    "docs_structure": {}
+  },
+  "copilot/fix-25a990a4-640b-43e6-ab17-9d88ac37e6cf": {
+    "branch": "copilot/fix-25a990a4-640b-43e6-ab17-9d88ac37e6cf",
+    "sha": "d91af0cd544cded24aa0d0268723e2d4d8ba71dc",
+    "total_files": 0,
+    "doc_files": 0,
+    "files": {},
+    "all_files_list": [],
+    "links_summary": {
+      "total_links": 0,
+      "internal_links": 0,
+      "external_links": 0,
+      "broken_internal": 0,
+      "broken_external": 0
+    },
+    "broken_links": [],
+    "personas_found": [],
+    "docs_structure": {}
+  },
+  "copilot/fix-32e1de2b-3b2f-4ba5-9c7a-aafbfced55fd": {
+    "branch": "copilot/fix-32e1de2b-3b2f-4ba5-9c7a-aafbfced55fd",
+    "sha": "09c1fca12a039b9632a655907f574bf18e8b9cf3",
+    "total_files": 0,
+    "doc_files": 0,
+    "files": {},
+    "all_files_list": [],
+    "links_summary": {
+      "total_links": 0,
+      "internal_links": 0,
+      "external_links": 0,
+      "broken_internal": 0,
+      "broken_external": 0
+    },
+    "broken_links": [],
+    "personas_found": [],
+    "docs_structure": {}
+  }
+}

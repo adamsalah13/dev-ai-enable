@@ -1,0 +1,20 @@
+{
+  "name": "dev-ai-fintech-sample",
+  "version": "1.0.0",
+  "description": "AI-driven fintech sample application",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "npm run build:frontend && npm run build:backend",
+    "test": "npm run test:frontend && npm run test:backend",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down"
+  },
+  "keywords": [
+    "fintech",
+    "ai",
+    "development",
+    "education"
+  ],
+  "license": "MIT"
+}
