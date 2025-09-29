@@ -2,54 +2,118 @@
 
 ## 🏦 Overview
 
-PayFlow is a sample fintech application designed for learning AI-driven development workflows. It demonstrates a complete payment processing system with modern architecture and compliance considerations.
+PayFlow is a comprehensive fintech sample application designed for learning AI-driven development workflows. It demonstrates a complete payment processing system with modern architecture, security best practices, and regulatory compliance considerations.
+
+This application serves as a practical learning environment where development teams can practice AI-assisted development techniques across the entire software development lifecycle.
 
 ## 🏗️ Architecture
 
 ```
-Frontend (React/TypeScript)
+Frontend (React/TypeScript + Vite)
     ↓
-API Gateway (Express.js)
+API Gateway (Express.js + TypeScript)
     ↓
 Microservices:
 ├── User Service (Authentication & KYC)
-├── Payment Service (Card Processing)
+├── Payment Service (Card Processing + Stripe)
 ├── Transaction Service (History & Reporting)
-├── Notification Service (Alerts & Communications)
-└── Compliance Service (Audit & Reporting)
+├── Notification Service (Email/SMS/Push)
+└── Compliance Service (Audit & Regulatory)
     ↓
-Databases:
-├── PostgreSQL (Transactional Data)
-├── Redis (Caching & Sessions)
-└── MongoDB (Audit Logs)
+Databases & Storage:
+├── PostgreSQL (Transactional Data + Extensions)
+├── Redis (Caching, Sessions & Rate Limiting)
+├── AWS S3 (Document Storage)
+└── Elasticsearch (Search & Analytics)
+    ↓
+External Integrations:
+├── Stripe (Payment Processing)
+├── Plaid (Bank Account Verification)
+├── Jumio (Identity Verification)
+├── Sift (Fraud Detection)
+├── SendGrid (Email Delivery)
+└── Twilio (SMS Notifications)
 ```
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+
-- Docker & Docker Compose
-- PostgreSQL 14+
-- Redis 6+
+- Node.js 18+ and npm 9+
+- Docker & Docker Compose v2+
+- Git with SSH key configured
+- VS Code with recommended extensions
+- GitHub Copilot subscription (recommended)
 
-### Quick Start
-```bash
-# Clone and setup
-git clone <repository-url>
-cd sample-app
+### Development Environment Setup
 
-# Install dependencies
-npm install
+1. **Clone and Initialize**
+   ```bash
+   git clone https://github.com/adamsalah13/dev-ai-enable.git
+   cd dev-ai-enable/sample-app
+   
+   # Copy environment configuration
+   cp .env.example .env
+   # Edit .env with your API keys and configuration
+   ```
 
-# Start development environment
-docker-compose up -d
+2. **Start Infrastructure Services**
+   ```bash
+   # Start databases and supporting services
+   docker-compose up -d postgres redis adminer
+   
+   # Wait for services to be ready
+   docker-compose logs -f postgres
+   ```
 
-# Run database migrations
-npm run migrate
+3. **Database Setup**
+   ```bash
+   # Run database migrations
+   npm run migrate
+   
+   # Seed with sample data
+   npm run seed
+   ```
 
-# Start the application
-npm run dev
-```
+4. **Install Dependencies**
+   ```bash
+   # Install root dependencies
+   npm install
+   
+   # Install backend dependencies
+   cd backend/api-gateway && npm install && cd ../..
+   
+   # Install frontend dependencies
+   cd frontend && npm install && cd ..
+   ```
+
+5. **Start Development Servers**
+   ```bash
+   # Start all services in development mode
+   npm run dev
+   
+   # Or start services individually:
+   npm run dev:backend  # API Gateway on :3000
+   npm run dev:frontend # React app on :3100
+   ```
+
+### Verification Steps
+
+1. **Check Service Health**
+   - API Gateway: http://localhost:3000/health
+   - Frontend App: http://localhost:3100
+   - Database Admin: http://localhost:8080 (adminer)
+   - API Documentation: http://localhost:3000/api-docs
+
+2. **Run Tests**
+   ```bash
+   # Run all tests
+   npm test
+   
+   # Run specific test suites
+   npm run test:unit
+   npm run test:integration
+   npm run test:e2e
+   ```
 
 ## 📁 Project Structure
 
