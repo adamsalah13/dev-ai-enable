@@ -1,0 +1,28 @@
+require('dotenv').config();
+
+const PayFlowAPIGateway = require('./src/app');
+const { logger } = require('./src/utils/logger');
+
+async function startServer() {
+  try {
+    const gateway = new PayFlowAPIGateway();
+    await gateway.start();
+  } catch (error) {
+    logger.error('Failed to start PayFlow API Gateway:', error);
+    process.exit(1);
+  }
+}
+
+// Handle uncaught exceptions
+process.on('uncaughtException', (error) => {
+  logger.error('Uncaught Exception:', error);
+  process.exit(1);
+});
+
+// Handle unhandled promise rejections
+process.on('unhandledRejection', (reason, promise) => {
+  logger.error('Unhandled Rejection at:', promise, 'reason:', reason);
+  process.exit(1);
+});
+
+startServer();
