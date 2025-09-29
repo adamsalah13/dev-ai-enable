@@ -1,0 +1,20 @@
+
+{
+  "dashboard": {
+    "title": "PayFlow Application Dashboard",
+    "panels": [
+      {
+        "title": "API Response Times",
+        "type": "graph"
+      },
+      {
+        "title": "Error Rates",
+        "type": "stat"
+      },
+      {
+        "title": "Active Users",
+        "type": "stat"
+      }
+    ]
+  }
+}
