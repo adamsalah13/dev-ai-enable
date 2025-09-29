@@ -1,0 +1,2 @@
+[console_scripts]
+fintech-ai-demo = fintech_ai.examples.basic_usage:main
