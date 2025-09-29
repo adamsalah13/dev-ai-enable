@@ -1,210 +1,416 @@
-# Python<<<<<<< HEAD
+# Python# Python<<<<<<< HEAD
 
-__pycache__/# Dependencies
+__pycache__/
 
-*.py[cod]node_modules/
+*.py[cod]__pycache__/# Dependencies
 
-*$py.classnpm-debug.log*
+*$py.class
 
-*.soyarn-debug.log*
+*.so*.py[cod]node_modules/
 
-.Pythonyarn-error.log*
+.Python
 
-build/pnpm-debug.log*
+build/*$py.classnpm-debug.log*
 
 develop-eggs/
 
-dist/# Production builds
-
-downloads/dist/
-
-eggs/build/
-
-.eggs/out/
-
-lib/
-
-lib64/# Environment variables
-
-parts/.env
-
-sdist/.env.local
-
-var/.env.development.local
-
-wheels/.env.test.local
-
-*.egg-info/.env.production.local
-
-.installed.cfg
-
-*.egg# IDE and editor files
-
-MANIFEST=======
-
-# Python
-
-# Virtual environments__pycache__/
-
-.env*.py[cod]
-
-.venv*$py.class
-
-env/*.so
-
-venv/.Python
-
-ENV/build/
-
-env.bak/develop-eggs/
-
-venv.bak/dist/
+dist/*.soyarn-debug.log*
 
 downloads/
 
-# Node.js Dependencieseggs/
+eggs/.Pythonyarn-error.log*
 
-node_modules/.eggs/
+.eggs/
 
-npm-debug.log*lib/
+lib/build/pnpm-debug.log*
 
-yarn-debug.log*lib64/
+lib64/
 
-yarn-error.log*parts/
+parts/develop-eggs/
 
-pnpm-debug.log*sdist/
+sdist/
 
-var/
+var/dist/# Production builds
 
-# Production buildswheels/
+wheels/
 
-dist/*.egg-info/
+*.egg-info/downloads/dist/
 
-build/.installed.cfg
+.installed.cfg
 
-out/*.egg
+*.eggeggs/build/
 
 MANIFEST
 
-# Environment variables
+.eggs/out/
 
-.env.local# Virtual environments
+# Virtual environments
 
-.env.development.local.env
+.envlib/
 
-.env.test.local.venv
+.venv
 
-.env.production.localenv/
+env/lib64/# Environment variables
 
-.env.developmentvenv/
+venv/
 
-.env.productionENV/
+ENV/parts/.env
 
 env.bak/
 
-# IDEs and Editorsvenv.bak/
+venv.bak/sdist/.env.local
+
+
+
+# Node.js Dependenciesvar/.env.development.local
+
+node_modules/
+
+npm-debug.log*wheels/.env.test.local
+
+yarn-debug.log*
+
+yarn-error.log**.egg-info/.env.production.local
+
+pnpm-debug.log*
+
+.installed.cfg
+
+# Production builds
+
+dist/*.egg# IDE and editor files
+
+build/
+
+out/MANIFEST=======
+
+
+
+# Environment variables# Python
+
+.env.local
+
+.env.development.local# Virtual environments__pycache__/
+
+.env.test.local
+
+.env.production.local.env*.py[cod]
+
+.env.development
+
+.env.production.venv*$py.class
+
+
+
+# IDEs and Editorsenv/*.so
 
 .vscode/
 
-.idea/# IDEs
-
-*.swp>>>>>>> origin/copilot/fix-bc8c9303-84d8-4618-9159-e5136467ff25
-
-*.swo.vscode/
-
-*~.idea/
+.idea/venv/.Python
 
 *.swp
 
-# OS generated files*.swo
+*.swoENV/build/
 
-.DS_Store*~
+*~
+
+env.bak/develop-eggs/
+
+# OS generated files
+
+.DS_Storevenv.bak/dist/
 
 .DS_Store?
 
-._*<<<<<<< HEAD
-
-.Spotlight-V100# OS generated files
-
-.Trashes=======
-
-ehthumbs.db# OS
-
-Thumbs.db>>>>>>> origin/copilot/fix-bc8c9303-84d8-4618-9159-e5136467ff25
-
-.DS_Store
-
-# Jupyter Notebooks.DS_Store?
-
-.ipynb_checkpoints._*
+._*downloads/
 
 .Spotlight-V100
 
-# Data files (commonly used in fintech/ML projects).Trashes
+.Trashes# Node.js Dependencieseggs/
 
-*.csvehthumbs.db
+ehthumbs.db
 
-*.xlsxThumbs.db
+Thumbs.dbnode_modules/.eggs/
 
-*.json
 
-!config/*.json<<<<<<< HEAD
 
-!examples/*.json=======
+# Jupyter Notebooksnpm-debug.log*lib/
 
-# Jupyter Notebooks
+.ipynb_checkpoints
 
-# Models and artifacts.ipynb_checkpoints
+yarn-debug.log*lib64/
+
+# Data files (commonly used in fintech/ML projects)
+
+*.csvyarn-error.log*parts/
+
+*.xlsx
+
+*.jsonpnpm-debug.log*sdist/
+
+!config/*.json
+
+!examples/*.jsonvar/
+
+
+
+# Models and artifacts# Production buildswheels/
 
 models/
 
-artifacts/# Data files (commonly used in fintech/ML projects)
+artifacts/dist/*.egg-info/
 
-*.pkl*.csv
+*.pkl
 
-*.joblib*.xlsx
+*.joblibbuild/.installed.cfg
 
-*.h5*.json
+*.h5
 
-*.pb!config/*.json
-
-!examples/*.json
-
-# Logs
-
-logs/# Models and artifacts
-
-*.logmodels/
-
-artifacts/
-
-# Runtime data*.pkl
-
-pids/*.joblib
-
-*.pid*.h5
-
-*.seed*.pb
-
-*.pid.lock
-
->>>>>>> origin/copilot/fix-bc8c9303-84d8-4618-9159-e5136467ff25
-
-# Coverage directory used by tools like istanbul# Logs
-
-coverage/logs/
-
-*.lcov*.log
+*.pbout/*.egg
 
 
 
-# nyc test coverage<<<<<<< HEAD
+# LogsMANIFEST
 
-.nyc_output# Runtime data
+logs/
+
+*.log# Environment variables
+
+
+
+# Runtime data.env.local# Virtual environments
 
 pids/
 
-# Dependency directories*.pid
+*.pid.env.development.local.env
+
+*.seed
+
+*.pid.lock.env.test.local.venv
+
+
+
+# Coverage directory used by tools like istanbul.env.production.localenv/
+
+coverage/
+
+*.lcov.env.developmentvenv/
+
+
+
+# nyc test coverage.env.productionENV/
+
+.nyc_output
+
+env.bak/
+
+# Dependency directories
+
+jspm_packages/# IDEs and Editorsvenv.bak/
+
+
+
+# Optional npm cache directory.vscode/
+
+.npm
+
+.idea/# IDEs
+
+# Optional eslint cache
+
+.eslintcache*.swp>>>>>>> origin/copilot/fix-bc8c9303-84d8-4618-9159-e5136467ff25
+
+
+
+# Microbundle cache*.swo.vscode/
+
+.rpt2_cache/
+
+.rts2_cache_cjs/*~.idea/
+
+.rts2_cache_es/
+
+.rts2_cache_umd/*.swp
+
+
+
+# Optional REPL history# OS generated files*.swo
+
+.node_repl_history
+
+.DS_Store*~
+
+# Output of 'npm pack'
+
+*.tgz.DS_Store?
+
+
+
+# Yarn Integrity file._*<<<<<<< HEAD
+
+.yarn-integrity
+
+.Spotlight-V100# OS generated files
+
+# parcel-bundler cache (https://parceljs.org/)
+
+.cache.Trashes=======
+
+.parcel-cache
+
+ehthumbs.db# OS
+
+# Next.js build output
+
+.nextThumbs.db>>>>>>> origin/copilot/fix-bc8c9303-84d8-4618-9159-e5136467ff25
+
+
+
+# Nuxt.js build / generate output.DS_Store
+
+.nuxt
+
+# Jupyter Notebooks.DS_Store?
+
+# Gatsby files
+
+.cache/.ipynb_checkpoints._*
+
+public
+
+.Spotlight-V100
+
+# Storybook build outputs
+
+.out# Data files (commonly used in fintech/ML projects).Trashes
+
+.storybook-out
+
+*.csvehthumbs.db
+
+# Temporary folders
+
+tmp/*.xlsxThumbs.db
+
+temp/
+
+.tmp/*.json
+
+
+
+# Database!config/*.json<<<<<<< HEAD
+
+*.sqlite
+
+*.sqlite3!examples/*.json=======
+
+*.db
+
+# Jupyter Notebooks
+
+# Docker
+
+.dockerignore# Models and artifacts.ipynb_checkpoints
+
+
+
+# Terraformmodels/
+
+*.tfstate
+
+*.tfstate.*artifacts/# Data files (commonly used in fintech/ML projects)
+
+.terraform/
+
+.terraform.lock.hcl*.pkl*.csv
+
+
+
+# Kubernetes*.joblib*.xlsx
+
+*.kubeconfig
+
+*.h5*.json
+
+# Certificates and keys
+
+*.pem*.pb!config/*.json
+
+*.key
+
+*.crt!examples/*.json
+
+*.p12
+
+*.pfx# Logs
+
+
+
+# Test resultslogs/# Models and artifacts
+
+test-results/
+
+playwright-report/*.logmodels/
+
+cypress/videos/
+
+cypress/screenshots/artifacts/
+
+
+
+# Documentation build# Runtime data*.pkl
+
+docs/build/
+
+docs/.docusaurus/pids/*.joblib
+
+
+
+# AI generated temporary files*.pid*.h5
+
+ai-temp/
+
+.ai-cache/*.seed*.pb
+
+
+
+# Course-specific ignores*.pid.lock
+
+exercise-submissions/
+
+student-work/>>>>>>> origin/copilot/fix-bc8c9303-84d8-4618-9159-e5136467ff25
+
+personal-notes/
+
+# Coverage directory used by tools like istanbul# Logs
+
+# Monitoring and metrics
+
+grafana/data/coverage/logs/
+
+prometheus/data/
+
+*.lcov*.log
+
+# Local development files
+
+docker-compose.override.yml
+
+.env.override
+
+# nyc test coverage<<<<<<< HEAD
+
+# IDE extensions
+
+.history/.nyc_output# Runtime data
+
+.vscode/settings.json
+
+pids/
+
+# API keys and secrets
+
+secrets/# Dependency directories*.pid
 
 jspm_packages/*.seed
 
