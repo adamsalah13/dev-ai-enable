@@ -1,13 +1,43 @@
-# Doc Planning
+# Documentation Planning Template
 
-This file was created to resolve a broken link found in `docs/collaboration-workflows.md` at line 434.
+## Project Information
+- **Project Name**: [Project Name]
+- **Version**: [Version]
+- **Date**: [Date]
 
-## Content Needed
+## Documentation Requirements
 
-Please add the appropriate content for this section.
+### Audience
+- [ ] End users
+- [ ] Developers
+- [ ] System administrators
+- [ ] Business stakeholders
 
-## Referenced From
+### Document Types Needed
+- [ ] User guides
+- [ ] API documentation
+- [ ] Technical specifications
+- [ ] Deployment guides
+- [ ] Troubleshooting guides
 
-- File: `docs/collaboration-workflows.md`
-- Line: 434
-- Link text: "Documentation Planning Template"
+## Content Strategy
+
+### Structure
+1. Overview and introduction
+2. Getting started
+3. Detailed functionality
+4. Advanced topics
+5. Reference materials
+
+### Review Process
+- [ ] Technical review
+- [ ] Editorial review
+- [ ] Stakeholder approval
+- [ ] User testing
+
+## AI Assistance Prompts
+
+Use these prompts to help generate documentation:
+- "Create a user guide for [feature]"
+- "Generate API documentation for [endpoint]"
+- "Write troubleshooting steps for [issue]"

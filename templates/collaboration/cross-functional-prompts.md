@@ -1,13 +1,31 @@
-# Cross Functional Prompts
+# Cross-Functional AI Prompts
 
-This file was created to resolve a broken link found in `docs/collaboration-workflows.md` at line 437.
+## Business Analyst ↔ Developer
+### BA to Developer
+- "Convert this business requirement into technical specifications: [requirement]"
+- "What are the technical implications of this business rule: [rule]"
 
-## Content Needed
+### Developer to BA
+- "Explain the business impact of this technical constraint: [constraint]"
+- "Help me understand the user story behind this requirement: [requirement]"
 
-Please add the appropriate content for this section.
+## Developer ↔ QA
+### Developer to QA
+- "Generate test cases for this new feature: [feature description]"
+- "What edge cases should I consider for: [functionality]"
 
-## Referenced From
+### QA to Developer
+- "Help me understand the expected behavior for: [scenario]"
+- "What are the dependencies for testing: [component]"
 
-- File: `docs/collaboration-workflows.md`
-- Line: 437
-- Link text: "Cross-Functional Prompts"
+## DevOps ↔ Team
+### DevOps Prompts
+- "Create deployment checklist for: [environment]"
+- "Generate monitoring alerts for: [service]"
+- "Document rollback procedure for: [deployment]"
+
+## Documentation ↔ All Roles
+### Documentation Prompts
+- "Summarize this technical discussion for documentation: [discussion]"
+- "Create user-friendly explanation of: [technical concept]"
+- "Generate FAQ entries for: [feature/issue]"
